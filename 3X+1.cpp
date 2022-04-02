@@ -1,17 +1,17 @@
 //The 3x+1 problem
-//input a , b	¡F	output a~b max cycle legth
+//input a , b	ï¼›	output a~b max cycle legth
 #include <iostream>
 using namespace std;
 
 int main() {
-	int a,length,i,j,n,x,y; //i j¿é¤J­È  x y¿é¥X°O¿ý¥Î   legth¦s³Ì¤jcycle legth­È    a­pºâcycle ength  n  
+	int a,length,i,j,n,x,y; //i jè¼¸å…¥å€¼  x yè¼¸å‡ºè¨˜éŒ„ç”¨   legthå­˜æœ€å¤§cycle legthå€¼    aè¨ˆç®—cycle lngth  n  
 	cin>>i>>j;
 	x=i;
 	y=j;
 	if(i>j) swap(i,j);
 	
 	for(int k=i ; k<j+1 ; ++k){
-		a=1;    // ¦]¬° ­pºâ¨ì³Ì«á=1®É¤]ºâ¤@­Ó cycle legth
+		a=1;    // å› ç‚º è¨ˆç®—åˆ°æœ€å¾Œ=1æ™‚ä¹Ÿç®—ä¸€å€‹ cycle legth
 		n=k;		
 		while(n!=1){
 				if(n%2==1){
