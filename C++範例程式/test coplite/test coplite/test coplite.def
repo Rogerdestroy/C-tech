@@ -1,0 +1,7 @@
+﻿; test coplite.def : Declares the module parameters.
+
+LIBRARY      "test coplite.DLL"
+
+EXPORTS
+	DllCanUnloadNow            PRIVATE
+	DllGetClassObject          PRIVATE

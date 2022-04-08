@@ -1,0 +1,24 @@
+﻿[$RootKey$\Packages\{ea6dd98a-071c-4774-a6f3-e4fdd9029919}]
+@="test coplite Package"
+"InprocServer32"="$PackageFolder$\test coplite.dll"
+"CompanyName"="Company"
+"ProductName"="Package Name"
+"ProductVersion"="1.0"
+
+[$RootKey$\Packages\{ea6dd98a-071c-4774-a6f3-e4fdd9029919}\SatelliteDll]
+"DllName"="test copliteUI.dll"
+"Path"="$PackageFolder$"
+
+[$RootKey$\Menus]
+"{ea6dd98a-071c-4774-a6f3-e4fdd9029919}"=", 1000, 1"
+
+[$RootKey$\InstalledProducts\test coplite]
+@="#100"
+"Package"="{ea6dd98a-071c-4774-a6f3-e4fdd9029919}"
+"ProductDetails"="#102"
+"LogoID"="#400"
+"PID"="1.0"
+"UseInterface"=dword:00000000
+
+
+
