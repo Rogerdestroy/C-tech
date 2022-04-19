@@ -32,4 +32,5 @@ public:
 };
 int main(){
     std::wcout<<HCF<int, 12, 64>::value<<std::endl;//12 64 Output: 4
+    std::wcout<<HCF<long long , 64 , 12>::value<<std::endl;// 64 12 Output: 4
 }
