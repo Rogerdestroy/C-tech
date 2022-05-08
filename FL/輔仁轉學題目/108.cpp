@@ -1,11 +1,11 @@
-//108
+//108 
 #include<iostream>
 using namespace std;
 
 int main(){
     float a,b;
-    cout<<"¿é¤J¨â­Ó¼Æ¡G";
+    cout<<"è¼¸å…¥å…©å€‹æ•¸ï¼š";
     cin>>a>>b;
-    cout<<"Á`©M¡G"<<a+b<<" ¥­§¡:"<<(a+b)/2<<endl;
+    cout<<"ç¸½å’Œï¼š"<<a+b<<" å¹³å‡:"<<(a+b)/2<<endl;
     return 0;
 }
